@@ -1,0 +1,627 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+img {
+	display: block;
+}
+#headerbtnlogin{
+	margin-left: 100px;
+	font-size: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+#header {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+#logo {
+	width: 30%;
+	height: auto;
+	margin: 18px 0;
+	float: left;
+}
+#header-img {
+	width: 70%;
+	float: right;
+	height: auto;
+}
+#main-menu{
+	background: #ED1C22;
+	height: auto;
+}
+#main-menu ul{
+	width: 1200px;
+	list-style: none;
+	width: 100%;
+}
+#main-menu ul li{
+	
+	display: inline-table;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+}
+.cate{
+	
+	width: 290px;
+	background: #000000;
+	color: white;
+	font-weight: bold;
+	margin-left: -40px;
+}
+#main-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+#main-menu ul li a:hover {
+	background: #f1f1f1;
+	color: red;
+
+}
+.clear {
+	clear:left;
+}
+#menu-left {
+	background: #f1f1f1;
+	height: 400px;
+	width: 290px;
+	float: left;
+	border: 1px solid #ccc;
+}
+#menu-left ul {
+	
+	padding:0;
+	list-style-type: none;
+	margin: 0;
+}
+#menu-left ul li {
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 1em;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+#menu-left ul li a {
+
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+#menu-left ul li:hover {
+	background: #cde2cd;
+}
+#slider {
+	width:898px;
+	float: right;
+}
+#slider img {
+	display: block;
+	height: 402px;
+}
+#divi{
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+#title-block{
+	background: #ED1C22;
+	height: 40px;
+
+}
+#title-block h3{
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 0 1em;
+}
+#product-slider {
+	width: 100%;
+	height: 500px;
+}
+#product-box {
+	width: 290px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-right: 8px;
+	float: left;
+	background: #fff;
+}
+#product-box img {
+	display: block;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+#product-box p{
+	padding: 0.1em 1em;
+}
+.price-product{
+	font-weight: bold;
+	font-size: 18px;
+	color: #ED1C22;
+	border: 1px solid #ccc;
+}
+button {
+	display: block;
+	background: #F0D115;
+	color:black;
+	font-weight: bold;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px auto;
+	padding: 0px;
+	border: none;
+}
+#footer {
+	width:100%;
+	height :350px;
+	background:#3D3D3D;
+	color:white;
+	float:left;
+	margin-top:100px;
+}
+.block-footer{
+	width: 30%;
+	float: left;
+	padding-right:3%;
+ 	height: 300px;	
+ 	text-color:white;
+}
+
+
+/*BEGIN PRICE BOX */
+	* {
+	    box-sizing: border-box;
+	}
+
+	/* Columb price */
+	.columns {
+	    float: left;
+	    width: 25%;
+	    padding:1px;
+	}
+
+	/*list price */
+	.price {
+	    list-style-type: none;
+	    border: 1px solid #eee;
+	    margin: 0;
+	    padding: 0;
+	    -webkit-transition: 0.3s;
+	    transition: 0.3s;
+	}
+
+	.price:hover {
+	    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+	}
+
+	/* Price header */
+	.price .header {
+	    background-color: #4DB1E2;
+	    color: white;
+	    font-size: 25px;
+	}
+
+	/* List items */
+	.price li {
+	    border-bottom: 1px solid #eee;
+	    padding: 20px;
+	    text-align: center;
+	}
+
+	/* Grey list item */
+	.price .grey {
+	    background-color: #eee;
+	    font-size: 20px;
+	}
+
+	/* Sign Up button */
+	.button-price {
+	    background-color: #4CAF50;
+	    border: none;
+	    color: white;
+	    padding: 10px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    font-size: 18px;
+	}
+	#price-head-1 {
+		background-color: #0077F7;
+	}
+	#price-head-2 {
+		background-color: #26A142;
+	}
+	#price-head-3 {
+		background-color: #DC3545;
+	}
+	#price-head-4 {
+		background-color: #FFC107;
+	}
+	@media only screen and (max-width: 600px) {
+	    .columns {
+	        width: 100%;
+	    }
+	}
+
+/*END PRICE BOX*/
+/*bắt đầu profile main */
+#profile{
+	width: 100%;
+}
+#promenu{
+	border: 1px solid red;
+    background: #9bd660;
+    width: 22%;
+    height: 430px;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+#promenu ul li a{
+ 	color: red;
+	margin-top: 10px;
+	text-decoration:none;
+}
+#promenu #iconmenu{
+	float: left;
+	margin-top: -10px;
+	margin-right: 5px;
+}
+#prousername{
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid red;
+}
+#menubar{
+	padding-top: 10px;
+}
+#promenu ul{
+	margin-top: 0px;
+}
+#promenu ul li ul li a{
+	 margin-left: -20px;
+	font-size: 17px;
+	border-bottom: 1px solid gray;
+}
+#prousername ul{
+	margin-top: -10px;
+	text-align: center;
+	margin-left: -50px;
+}
+#prousername ul li{
+	display: inline-table;
+}
+
+#procontent{
+	width: 70%;
+	float: left;
+	background: #EFF0F3;
+   padding-bottom: 100px;
+   border-radius: 5px;
+   margin-left: 2%;
+   padding-right: 40px;
+}
+
+#promenu h1{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 3px;
+
+}
+#promenu #myacc{
+	background:#00B593;
+	height: 30px;
+	width: 75%;
+	border-radius: 20px; 
+	margin-left: 35px;
+	text-align: center;
+}
+#promenu a{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+#promenu a:hover{
+	background: orange;
+	color: blue;
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+#promenu ul li ul{
+	display: none;
+
+}
+
+#promenu ul li:hover ul{
+	display: block;
+}
+#procontent h1{
+	margin-left: 38px;
+	font-size: 25px;
+	border-bottom: 2px solid red;
+	text-align: center;
+
+}
+#procontent button{ 
+	background: red;
+	border: none;
+	font-size: 18px;
+	border-radius: 6px;
+	outline: none;
+	height: 40px;
+	width: 200px;
+	color: white;
+}
+#procontent button:hover{
+	cursor: pointer;
+	background: yellow;
+	color: blue;
+}
+#profile ul li{
+	list-style: none;
+	padding-top: 30px;
+}
+#radioselect {
+	width : 50px; 
+	display: inline;
+}
+
+
+#pct1{
+	width: 40%;
+	margin-left: 20%;
+	float: left;
+}
+#pct2{
+margin-left: -10%;
+width: 30%;
+float: left;
+margin-right: 10%;
+
+}
+#pct3 {
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+
+}
+#pct2 ul li{
+	border-bottom: 1px solid gray;
+}
+
+#cp1{
+	width: 30%;
+	margin-left: 20%;
+	float: left;
+}
+#cp1 ul li{
+	margin-bottom: 0px;
+}
+#cp2{
+margin-left: -10%;
+width: 30%;
+float: left;
+margin-right: 10%;
+
+}
+#cp2 input{
+	padding-left: 5px;
+	width: 400px;
+	height: 20px;
+	border: 1px solid gray;
+	background: transparent;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	border-radius: 3px;
+
+}
+#cp3{
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+
+}
+#cp3 #idcar{
+	padding-left: 5px;
+	width: 200px;
+	height: 30px;
+	border: 1px solid orange;
+	background: transparent;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	border-radius: 3px;
+}
+#vis1{
+    padding-bottom: 80px;
+    width: 100%;
+    padding-top: 139px;
+}
+.table {
+	transform: translate(13%,-10%);
+    width: 80%;
+    max-width: 100%;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+.table tr,td{
+	border: 1px solid #ccc;
+	color: #007bff;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+
+}
+.table th{
+	margin-top: 200px;
+	color: #ff9800;
+	border: 1px solid #ccc;
+}
+/*kết thức profile*/
+
+/*bắt đầu login main*/
+#login{
+	margin-left: 1%;
+	margin-top: 60px;
+	width: 98%;
+	height: 500px;
+	background: #EFF0F3;
+	padding-top: 70px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+#loginleft{
+width: 30%;
+float: left;
+margin-left: 15%
+
+
+}
+#loginright{
+	width: 30%;
+	float: left;
+	margin-top: 82px;
+	margin-left: 15%;
+}
+#dntk{
+	background:#00B593;
+	height: 37px;
+	width: 400px;
+	border-radius: 20px; 
+	    margin-bottom:60px;
+}
+#login h1{
+	padding-top: 5px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 25px;
+}
+#login input{
+	padding-left: 5px;
+	width: 400px;
+	height: 30px;
+	border: 1px solid gray;
+	background: transparent;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+
+}
+#login button{
+	background: red;
+	border: none;
+	font-size: 18px;
+	border-radius: 6px;
+	outline: none;
+	width: 180px;
+	margin-top: 10px;
+	color: white;
+	margin-left: 110px;
+
+}
+#login button:hover{
+	cursor: pointer;
+	background: #ffc017;
+	color: #000;
+}
+#linkregzone{
+	margin-top: 20px;
+}
+#linkregcus {
+	text-decoration: none;
+	color : red;
+	font-size: 15px;
+	
+}
+#linkregcus:hover{
+	color : blue;
+}
+
+/*kết thúc login main*/
+/*bắt đầu main đăng kí tài khoản*/
+#regzone{
+	width: 98%;
+	margin-left: 1%;
+	border: 1px solid gray;
+	background: #EFF0F3;
+	border-radius: 10px;
+}
+#regis{
+	margin-top: 50px;
+	width: 50%;
+	margin-left: 35%;
+	padding-bottom: 40px;
+
+}
+#dktk{
+	background:#00B593;
+	height: 37px;
+	width: 400px;
+	border-radius: 20px; 
+	    margin-bottom:60px;
+}
+#regis h1{
+
+	padding-top: 5px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 25px;
+}
+#regis .regtext {
+	padding-left: 5px;
+	width: 400px;
+	height: 30px;
+	border: 1px solid gray;
+	background: transparent;
+	outline: none;
+	color: black;
+	font-size: 15px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+
+}
+#regis button{
+	background: red;
+	border: none;
+	font-size: 18px;
+	border-radius: 6px;
+	outline: none;
+	height: 30px;
+	width: 400px;
+	margin-top: 30px;
+	color: white;
+}
+#regis button:hover{
+	cursor: pointer;
+	background: #ffc017;
+	color: #000;
+}
+
+#radioselect .gt{
+	width : 50px;
+	height : 10px;
+	margin-top : 15px;
+}
+/*kết thúc main đktk*/

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/view/ClientFooter.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/ClientHeader.jsp=UTF-8
+encoding//WebContent/css/index.css=UTF-8
+encoding//src/controller/CustomerChangePassword.java=UTF-8
+encoding//src/controller/CustomerChangePro.java=UTF-8
+encoding//src/controller/CustomerLogin.java=UTF-8
+encoding//src/controller/CustomerRegister.java=UTF-8
+encoding//src/controller/OwnCarAdd.java=UTF-8
+encoding//src/controller/OwnCarDel.java=UTF-8
+encoding//src/controller/OwnCarUpdate.java=UTF-8
+encoding//src/controller/addCarController.java=UTF-8
+encoding//src/controller/login.java=UTF-8
